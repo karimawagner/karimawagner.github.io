@@ -3,6 +3,16 @@
 <head>
 	<title></title>
 	<h1> My site works!!!!</h1>
+	<link rel="manifest" href="/manifest.json" />
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "48e5906b-0e55-446f-a465-a2c8f091b123",
+    });
+  });
+</script>
 </head>
 <body>
 
